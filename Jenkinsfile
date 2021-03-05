@@ -4,7 +4,7 @@ pipeline {
     stage('git') { 
       steps { 
         echo 'Cloning Git hub jenkins file' 
-        git(credentialsId: 'Github', url: 'https://github.com/squad12-devops/DevOps-Demo-WebApp.git') 
+        git(url: 'https://github.com/squad12-devops/DevOps-Demo-WebApp.git') 
       } 
     } 
  
